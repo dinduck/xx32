@@ -255,7 +255,6 @@ impl<REG: Readable + Writable> Reg<REG> {
 #[doc(hidden)]
 pub mod raw {
     use super::{marker, BitM, FieldSpec, RegisterSpec, Unsafe, Writable};
-
     pub struct R<REG: RegisterSpec> {
         pub(crate) bits: REG::Ux,
         pub(super) _reg: marker::PhantomData<REG>,

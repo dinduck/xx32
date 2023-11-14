@@ -10,3 +10,8 @@ ch32v3xx-pac = { version = "0.1.0", path = "../ch32v3xx-pac", features=[ "rt", "
 panic-halt = "0.2.0"
 riscv = { version = "0.10.1", features = [ "critical-section-single-hart" ] }
 riscv-rt = "0.11.0"
+
+
+[[bin]]
+name = "led"
+
